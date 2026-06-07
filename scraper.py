@@ -130,7 +130,7 @@ def main():
     for i, node in enumerate(valid_nodes, 1):
         renamed_node = rename_node(node, i)
         final_nodes.append(renamed_node)
-        if i>10:
+        if i>30:
             break;
         
     print(f"[*] 成功生成 {len(final_nodes)} 个定制化节点！")
